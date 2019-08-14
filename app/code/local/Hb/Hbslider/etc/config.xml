@@ -1,0 +1,106 @@
+<config>
+  <modules>
+    <Hb_Hbslider>
+      <version>0.1.0</version>
+    </Hb_Hbslider>
+  </modules>
+
+  <frontend>
+    <routers>
+          <routeurfrontend>
+              <use>standard</use>
+              <args>
+                 <module>Hb_Hbslider</module>
+                 <frontName>hbslider</frontName>
+              </args>
+           </routeurfrontend>
+       </routers>
+
+    <layout>
+          <updates>
+            <hbslider>
+              <file>hbslider.xml</file>
+            </hbslider>
+          </updates>
+       </layout>
+
+  </frontend>
+
+  <admin>
+     <routers>
+         <hbslider>
+            <use>admin</use>
+            <args>
+               <module>Hb_Hbslider</module>
+               <frontName>hbslideradmin</frontName>
+            </args>
+         </hbslider>
+      </routers>
+ </admin>
+ <adminhtml>
+   <layout>
+      <updates>
+          <hbslider>
+              <file>hbslider.xml</file>
+           </hbslider>
+      </updates>
+   </layout>
+   <menu>
+      <hbslider translate="title" module="adminhtml">
+         <title>HB Slider</title>
+         <sort_order>100</sort_order>
+         <children>
+             <set_time>
+                   <title>Manage Slides</title>
+                   <action>hbslideradmin/adminhtml_index</action>
+              </set_time>
+          </children>
+       </hbslider>
+    </menu>
+</adminhtml>
+
+
+      <global>
+      <blocks>
+         <hbslider>
+              <class>Hb_Hbslider_Block</class>
+         </hbslider>
+      </blocks>
+      <models>
+<hbslider>
+     <class>Hb_Hbslider_Model</class>
+     <resourceModel>hbslider_mysql4</resourceModel>
+ </hbslider>
+<hbslider_mysql4>
+     <class>Hb_Hbslider_Model_Mysql4</class>
+     <entities>
+         <hbslider>
+           <table>hb_hbslider</table>
+         </hbslider>
+      </entities>
+</hbslider_mysql4>
+</models>
+    
+<resources>
+  <hbslider_setup>
+    <setup>
+      <module>Hb_Hbslider</module>
+    </setup>
+    <connection>
+      <use>core_setup</use>
+    </connection>
+  </hbslider_setup>
+        <hbslider_write>
+            <connection>
+                <use>core_write</use>
+            </connection>
+        </hbslider_write>
+       <hbslider_read>
+          <connection>
+             <use>core_read</use>
+          </connection>
+       </hbslider_read>
+</resources>
+ 
+    </global>
+</config>

@@ -1,0 +1,29 @@
+<layout version="0.1.0">
+     <default>
+          <reference name="content">
+          </reference>
+        
+        <reference name="head">
+            <action method="addCss"><stylesheet>hb/slider/css/bjqs.css</stylesheet></action>
+            <action method="addCss"><stylesheet>hb/slider/css/hb.css</stylesheet></action>
+            
+            <!-- <action method="addJs"><script>hb/slider/js/jquery-1.7.1.min.js</script></action>
+            <action method="addJs"><script>hb/slider/js/bjqs-1.3.min.js</script></action>
+            <action method="addJs"><script>hb/slider/js/hbslider.js</script></action> -->
+
+
+            <action method="addJs"><script>hbslider/jquery-1.7.1.min.js</script></action>
+            <action method="addJs"><script>hbslider/bjqs-1.3.min.js</script></action>
+            <action method="addJs"><script>hbslider/hbslider.js</script></action>
+        </reference>
+
+         
+      </default>
+     <cms_index_index>
+           <reference name="content">
+                <block type="hbslider/myblock"  
+                  name="hbslider_hiddenbrains"
+                  template="hbslider/hbslider.phtml" />
+           </reference>
+      </cms_index_index>
+</layout>

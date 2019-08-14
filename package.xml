@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Hb_Hbslider</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license>OSL-3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Simple Carousal slider to display sliding images on home page.</summary>
+    <description>The slider has many features like display list of images in admin area, disable particular slide to stop showing from front end, provide hyper link on slides etc.</description>
+    <notes>stable</notes>
+    <authors><author><name>Brijesh Mishra</name><user>brijeshmkt</user><email>brijeshmkt@gmail.com</email></author></authors>
+    <date>2014-11-01</date>
+    <time>04:21:38</time>
+    <contents><target name="magelocal"><dir name="Hb"><dir name="Hbslider"><dir name="Block"><dir name="Adminhtml"><file name="Grid.php" hash="38df43ca25e715bebc5d264ba406c3ea"/><dir name="Hbslider"><dir name="Edit"><file name="Form.php" hash="e5f4aca33a19cd925b25fbc3de31eb25"/><dir name="Tab"><file name="Form.php" hash="b5a17fec0f07e0a827364ad148b1a389"/></dir><file name="Tabs.php" hash="192ca57301c76f4bc0f2aeef54b63731"/></dir><file name="Edit.php" hash="82abe0e4c1df384495413a871ed51363"/><file name="Grid.php" hash="c1658b7ffd0cc88551387fae6556796d"/></dir></dir><file name="Myblock.php" hash="442a1dab48f6f5a5ebb3075588f8c207"/></dir><dir name="Model"><file name="Hbslider.php" hash="ee8960cf3b9ccd00ef3617e45e9bd3da"/><dir name="Mysql4"><dir name="Hbslider"><file name="Collection.php" hash="9ee0756c748d8e0ef93e1b5dc5d4aafa"/></dir><file name="Hbslider.php" hash="8cb94dccf87cc7c86c5f8bcaeeb289ee"/></dir></dir><dir name="controllers"><dir name="Adminhtml"><file name="IndexController.php" hash="511a176ce72cb1e6ab5ffcc616c81748"/><file name="IndexController_bkp.php" hash="acd2474425f3fbe9a80922cb794836df"/></dir><file name="IndexController.php" hash="0a2480488902d540f4528686f636b5f8"/></dir><dir name="etc"><file name="config.xml" hash="8553dca9000669bddf722c2d1aedde7b"/></dir><dir name="sql"><dir name="hbslider_setup"><file name="mysql4-install-0.1.0.php" hash="6393c7616f51a3e48fe37dd382956c0c"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Hb_Hbslider.xml" hash="a8f0289e8949dbad51177e4c015e877c"/></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="hbslider.xml" hash="99554a3c567f3569a73a179157e47c59"/></dir></dir></dir></dir><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="hbslider.xml" hash="3add566ae7fa3b4bba8321f14f343214"/></dir><dir name="template"><dir name="hbslider"><file name="hbslider.phtml" hash="effc9add122fbf4e32737d385e04fe4b"/></dir></dir></dir></dir></dir></target><target name="mageskin"><dir name="frontend"><dir name="default"><dir name="hbslider"><dir name="css"><file name="bjqs.css" hash="f0163e5855e0088569e379bbc2e5d598"/><file name="hb.css" hash="f35b38651485f56d7787476180a7e972"/></dir><dir name="js"><file name="bjqs-1.3.min.js" hash="0b1e54f8ab1e68689a9dab6d625f2c2e"/><file name="hbslider.js" hash="bd4e4c897ee6609cdbe0efc2a6ff20a8"/><file name="jquery-1.7.1.min.js" hash="ddb84c1587287b2df08966081ef063bf"/></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.0.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

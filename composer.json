@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Hb_Hbslider",
+    "type": "magento-module",
+    "license": "OSL-3.0",
+    "homepage": "",
+    "description": "Simple Carousal slider to display sliding images on home page.",
+    "authors": [
+    {
+        "name": "Brijesh Mishra",
+        "email": "brijeshmkt@gmail.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

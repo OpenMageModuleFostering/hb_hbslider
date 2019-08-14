@@ -1,0 +1,9 @@
+<?xml version = "1.0"?>
+   <config>
+      <modules>
+        <Hb_Hbslider>
+            <active>true</active>
+            <codePool>local</codePool>
+         </Hb_Hbslider>
+       </modules>
+    </config>

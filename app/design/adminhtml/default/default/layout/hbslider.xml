@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<layout version="0.1.0">
+  <hbslider_adminhtml_index_index>
+     <reference name="content">
+             <!-- <block type="test/myblock"  name="afficher_monbloc" template="test/afficher.phtml" /> -->
+             <block type="hbslider/adminhtml_grid"  
+             	name="hbslider"/>
+      </reference>
+   </hbslider_adminhtml_index_index>
+</layout>
